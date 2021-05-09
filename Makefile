@@ -17,7 +17,6 @@ install:
 	wget -O hadolint https://github.com/hadolint/hadolint/releases/download/v1.1/hadolint_linux_amd64
 	chmod +x hadolint
 	mv hadolint /usr/bin/
-	./hadolint Dockerfile
 
 test:
 	# Additional, optional, tests could go here
