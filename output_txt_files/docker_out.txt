@@ -1,3 +1,5 @@
+
+
 [2021-05-09 14:31:46,302] INFO in app: JSON payload: 
 {'CHAS': {'0': 0}, 'RM': {'0': 6.575}, 'TAX': {'0': 296.0}, 'PTRATIO': {'0': 15.3}, 'B': {'0': 396.9}, 'LSTAT': {'0': 4.98}}
 [2021-05-09 14:31:46,331] INFO in app: Inference payload DataFrame: 
