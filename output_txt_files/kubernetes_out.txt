@@ -1,4 +1,9 @@
-
+Error from server (AlreadyExists): pods "newimage" already exists
+NAME       READY   STATUS    RESTARTS   AGE
+newimage   1/1     Running   0          110m
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+===========kubectl logs newimage================
 
 [2021-05-09 14:31:46,302] INFO in app: JSON payload: 
 {'CHAS': {'0': 0}, 'RM': {'0': 6.575}, 'TAX': {'0': 296.0}, 'PTRATIO': {'0': 15.3}, 'B': {'0': 396.9}, 'LSTAT': {'0': 4.98}}
@@ -12,4 +17,11 @@
    CHAS     RM    TAX  PTRATIO      B  LSTAT
 0     0  6.575  296.0     15.3  396.9   4.98
 127.0.0.1 - - [09/May/2021 14:31:46] "POST /predict HTTP/1.1" 200 -
+=====================./make_prediction.sh===============
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
 
