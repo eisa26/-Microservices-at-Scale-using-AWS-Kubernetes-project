@@ -30,4 +30,5 @@ jobs:
           name: run lint
           command: |
             . venv/bin/activate
+            brew install hadolint
             make lint
