@@ -32,4 +32,3 @@ jobs:
           name: run lint
           command: |
             . venv/bin/activate
-            make lint 
